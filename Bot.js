@@ -10,7 +10,7 @@
 // ==/UserScript==
 
 let links = document.links;
-let search_icon = document.getElementById("search_icon")[0];
+let search_icon = document.getElementsById("search_icon")[0];
 let keywords = ["купить авто", "купля продажа авто", "продать автомобиль", "купить автомобиль с пробегом"];
 let keyword = keywords[getRandom(0, keywords.length)];
 
